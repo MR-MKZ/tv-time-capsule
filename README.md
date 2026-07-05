@@ -16,10 +16,13 @@ does not upload your TV Time export.
 
 ![TV Time Capsule history view](app/assets/screenshot-history.png)
 
-## Get Your TV Time GDPR Data
+## Back Up Your TV Time Data First
 
-Before using TV Time Capsule, request and download your TV Time data export from
-TV Time's GDPR self-service page:
+Before trying any replacement app or migration path, export your TV Time data.
+Request it as early as possible because exports can take time when the service is
+busy.
+
+TV Time Capsule is built for the official TV Time GDPR ZIP export. Start here:
 
 [https://gdpr.tvtime.com/gdpr/self-service](https://gdpr.tvtime.com/gdpr/self-service)
 
@@ -33,6 +36,21 @@ TV Time's GDPR self-service page:
 
 Do not unzip or edit the export before using TV Time Capsule. The app expects the
 original `.zip` file.
+
+## Alternative Export Options
+
+If the official GDPR export is slow or unavailable, browser-based exporters may
+help you save an extra copy of your TV Time data. These are useful backups, but
+TV Time Capsule currently imports the official GDPR ZIP format.
+
+- [TV Time Data Extractor](https://chromewebstore.google.com/detail/tv-time-data-extractor/jmpoblamjmpbhnggdihhcoejomkpkgpp)
+  creates a simple CSV export locally in your browser.
+- [TV Time Out by Refract](https://chromewebstore.google.com/detail/tv-time-out-by-refract/pmejpdpjbkjklfceogdkolmgclldogbi?hl=en)
+  creates export files and an HTML archive of your profile. For smaller accounts,
+  that HTML archive can make manual migration easier.
+
+Use these as additional backups, not as a replacement for requesting the official
+GDPR export.
 
 ## Use TV Time Capsule
 
@@ -57,6 +75,22 @@ update, choose the original TV Time GDPR ZIP again.
 - show/movie posters where metadata providers have a match
 - history grouped by show/movie and date range
 - watched show episodes grouped by season
+
+## What You Cannot Fully Migrate
+
+Some TV Time memories may not be portable into another app, depending on what TV
+Time includes in the export and what other apps support importing.
+
+Community and social data is especially limited:
+
+- comments
+- GIF reactions
+- episode discussions
+- likes
+- community interactions
+
+TV Time Capsule focuses on preserving the private viewing library and watch
+history that can be safely parsed from your export.
 
 ## What Stays Private
 
