@@ -16,6 +16,18 @@ locally. The app does not upload your TV Time export.
 
 ![TV Time Capsule history view](app/assets/screenshot-history.png)
 
+### Poster Details
+
+![TV Time Capsule poster details modal](app/assets/screenshot-poster-info.png)
+
+### Comments and Reactions
+
+![TV Time Capsule comments and reactions view](app/assets/screenshot-comments-reactions.png)
+
+### Stats
+
+![TV Time Capsule stats view](app/assets/screenshot-stats.png)
+
 ## Back Up Your TV Time Data First
 
 Before trying any replacement app or migration path, export your TV Time data.
